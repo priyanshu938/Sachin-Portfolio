@@ -96,3 +96,62 @@ header {
   margin: 100px;
   height: 300px;
 }
+/* skills styling */
+.skills {
+  color: #d22938;
+  margin: 50px;
+  padding: 50px;
+}
+.skills-heading {
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  width: 300px;
+  height: 580px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.card-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1 {
+  background-image: url("/images/3DParts.jpg");
+}
+.card-2 {
+  background-image: url("/images/ProductDesign.jpg");
+}
+.card-3 {
+  background-image: url("/images/ProductDesign.jpg");
+}
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 10px;
+  color: black;
+}
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
