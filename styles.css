@@ -3,13 +3,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background-image: url("/images/background.svg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   overflow-x: hidden;
@@ -62,11 +62,11 @@ header {
 /* home styling */
 .home {
   display: flex;
+  background-image: url("/images/background.svg");
 }
 .home-content {
   color: #fff;
   line-height: 30px;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin: 70px;
   margin-left: 120px;
@@ -77,20 +77,20 @@ header {
   font-size: 50px;
   color: #d22938;
 }
-.hire {
+.resume {
   font-size: 30px;
   color: #ffff;
   height: 60px;
-  width: 150px;
+  width: 300px;
   background-color: #d22938;
   border: 0;
-  border-radius: 50px;
+  border-radius: 10px;
   margin-top: 20px;
 }
-.hire:hover {
+.resume:hover {
   color: #d22938;
   background-color: white;
-  border: 5px solid #d22938;
+  border: 3px solid #d22938;
 }
 .profile-pic {
   margin: 100px;
@@ -98,6 +98,7 @@ header {
 }
 /* skills styling */
 .skills {
+  background-image: url("/images/background.svg");
   color: #d22938;
   margin: 50px;
   padding: 50px;
@@ -154,4 +155,153 @@ header {
   cursor: pointer;
   transform: scale(1.03);
   transition: all 0.5s ease;
+}
+/* projects-styling */
+
+/* contacts-styling  */
+.contact {
+  color: black;
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("/images/background.svg");
+  background-size: cover;
+}
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #d22938;
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  margin: 50px;
+}
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+.container-contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container-contact .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container-contact .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container-contact .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  color: #d22938;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container-contact .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container-contact .contactInfo .box .text h3 {
+  color: #d22938;
+  font-weight: 500;
+}
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #d22938;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* footer styling */
+.footer {
+  margin:50px 0 10px 0;
+  color:white;
+  
+  text-align:center;
+  height:20px;
+}
+/* media-queries */
+
+/* contact media queries */
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container-contact {
+    flex-direction: column;
+  }
+  .container-contact .contactInfo,
+  .contactForm {
+    margin-bottom: 40px;
+    width: 100%;
+  }
 }
