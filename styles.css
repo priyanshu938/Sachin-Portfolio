@@ -9,19 +9,26 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* navbar styling */
 a {
   text-decoration: none;
 }
 .navbar {
-    display: flex;
-    
-  }
+  display: flex;
+}
 header {
   display: -webkit-flex;
   display: -moz-flexbox;
@@ -39,7 +46,6 @@ header {
 .nav-area {
   list-style: none;
   margin-top: 40px;
-  
 }
 .nav-area li {
   display: inline-block;
@@ -54,3 +60,39 @@ header {
   color: #d22938;
 }
 /* home styling */
+.home {
+  display: flex;
+}
+.home-content {
+  color: #fff;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 70px;
+  margin-left: 120px;
+  display: inline-block;
+  width: 500px;
+}
+.name {
+  font-size: 50px;
+  color: #d22938;
+}
+.hire {
+  font-size: 30px;
+  color: #ffff;
+  height: 60px;
+  width: 150px;
+  background-color: #d22938;
+  border: 0;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.hire:hover {
+  color: #d22938;
+  background-color: white;
+  border: 5px solid #d22938;
+}
+.profile-pic {
+  margin: 100px;
+  height: 300px;
+}
