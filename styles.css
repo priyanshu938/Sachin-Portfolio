@@ -96,14 +96,21 @@ header {
   margin: 0px;
   height: 500px;
 }
+hr{
+  height:3px;
+  background: #fff;
+}
 /* skills styling */
-.skills {
-  background-image: url("/images/background.svg");
+
+/* projects-styling */
+.projects {
+  
+  background:rgba(31, 15, 15, 0.685);
   color: #d22938;
-  margin: 50px;
+  
   padding: 30px;
 }
-.skills-heading {
+.projects-heading {
   text-align: center;
   text-decoration: overline underline;
   text-decoration-color: white;
@@ -159,7 +166,7 @@ header {
   transform: scale(1.03);
   transition: all 0.5s ease;
 }
-/* projects-styling */
+
 
 /* contacts-styling  */
 .contact {
@@ -187,10 +194,7 @@ header {
   margin: 50px;
   text-underline-offset: 10px;
 }
-.contact .content p {
-  font-weight: 300;
-  color: #fff;
-}
+
 .container-contact {
   width: 100%;
   display: flex;
