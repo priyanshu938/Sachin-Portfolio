@@ -96,18 +96,16 @@ header {
   margin: 0px;
   height: 500px;
 }
-hr{
-  height:3px;
+hr {
+  height: 3px;
   background: #fff;
 }
 /* skills styling */
 
 /* projects-styling */
 .projects {
-  
-  background:rgba(31, 15, 15, 0.685);
+  background: rgba(31, 15, 15, 0.685);
   color: #d22938;
-  
   padding: 30px;
 }
 .projects-heading {
@@ -124,9 +122,9 @@ hr{
 }
 .card {
   background-color: #fff;
-  width: 300px;
+  width: 400px;
   height: 400px;
-  margin: 10px;
+  margin: 50px;
   border-radius: 15px;
 }
 .card-image {
@@ -143,8 +141,6 @@ hr{
 }
 .card-3 {
   background-image: url("/images/Analysis.gif");
-  
-  
 }
 .card h2 {
   padding: 10px;
@@ -166,7 +162,6 @@ hr{
   transform: scale(1.03);
   transition: all 0.5s ease;
 }
-
 
 /* contacts-styling  */
 .contact {
@@ -291,11 +286,11 @@ hr{
 
 /* footer styling */
 .footer {
-  margin:50px 0 10px 0;
-  color:white;
-  
-  text-align:center;
-  height:20px;
+  margin: 50px 0 10px 0;
+  color: white;
+
+  text-align: center;
+  height: 20px;
 }
 /* media-queries */
 
