@@ -68,7 +68,7 @@ header {
   color: #fff;
   line-height: 30px;
   font-weight: 600;
-  margin: 70px;
+  margin: 40px;
   margin-left: 120px;
   display: inline-block;
   width: 500px;
@@ -81,10 +81,10 @@ header {
   font-size: 30px;
   color: #ffff;
   height: 60px;
-  width: 300px;
+  width: 400px;
   background-color: #d22938;
   border: 0;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-top: 20px;
 }
 .resume:hover {
@@ -93,31 +93,32 @@ header {
   border: 3px solid #d22938;
 }
 .profile-pic {
-  margin: 100px;
-  height: 300px;
+  margin: 0px;
+  height: 500px;
 }
 /* skills styling */
 .skills {
   background-image: url("/images/background.svg");
   color: #d22938;
   margin: 50px;
-  padding: 50px;
+  padding: 30px;
 }
 .skills-heading {
   text-align: center;
   text-decoration: overline underline;
   text-decoration-color: white;
+  text-underline-offset: 10px;
 }
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
   flex-wrap: wrap;
 }
 .card {
   background-color: #fff;
   width: 300px;
-  height: 580px;
+  height: 400px;
   margin: 10px;
   border-radius: 15px;
 }
@@ -134,7 +135,9 @@ header {
   background-image: url("/images/ProductDesign.jpg");
 }
 .card-3 {
-  background-image: url("/images/ProductDesign.jpg");
+  background-image: url("/images/Analysis.gif");
+  
+  
 }
 .card h2 {
   padding: 10px;
@@ -163,7 +166,7 @@ header {
   color: black;
   position: relative;
   min-height: 100vh;
-  padding: 50px 100px;
+  padding: 0 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,6 +185,7 @@ header {
   text-decoration: underline overline;
   text-decoration-color: white;
   margin: 50px;
+  text-underline-offset: 10px;
 }
 .contact .content p {
   font-weight: 300;
