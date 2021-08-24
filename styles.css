@@ -101,7 +101,151 @@ hr {
   background: #fff;
 }
 /* skills styling */
+.skills-div {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+  background: white;
+}
+.skills {
+  color: #d22938;
+  padding: 30px;
+}
+.skills-heading {
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-color: black;
+  text-underline-offset: 10px;
+  padding-bottom: 50px;
+}
 
+.skills-bar {
+  width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  
+ 
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+.skills-bar .bar:first-child {
+  margin-top: 0px;
+}
+.skills-bar .bar .info {
+  margin-bottom: 5px;
+}
+.skills-bar .bar .info span {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progress-line.sk-1 span {
+  width: 90%;
+}
+.progress-line.sk-2 span {
+  width: 80%;
+}
+.progress-line.sk-3 span {
+  width: 65%;
+}
+.progress-line.sk-4 span {
+  width: 75%;
+}
+.progress-line.sk-5 span {
+  width: 85%;
+}
+.progress-line.sk-6 span {
+  width: 80%;
+}
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+}
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+.progress-line.sk-1 span::after {
+  content: "90%";
+}
+.progress-line.sk-2 span::after {
+  content: "80%";
+}
+.progress-line.sk-3 span::after {
+  content: "65%";
+}
+.progress-line.sk-4 span::after {
+  content: "75%";
+}
+.progress-line.sk-5 span::after {
+  content: "85%";
+}
+.progress-line.sk-6 span::after {
+  content: "80%";
+}
 /* projects-styling */
 .projects {
   background: rgba(31, 15, 15, 0.685);
@@ -114,7 +258,7 @@ hr {
   text-decoration-color: white;
   text-underline-offset: 10px;
 }
-.container {
+.container-project {
   display: flex;
   justify-content: center;
   margin-top: 50px;
