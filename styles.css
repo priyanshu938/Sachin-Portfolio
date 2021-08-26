@@ -81,7 +81,7 @@ header {
   font-size: 30px;
   color: #ffff;
   height: 60px;
-  width: 400px;
+  width: 200px;
   background-color: #d22938;
   border: 0;
   border-radius: 30px;
@@ -125,8 +125,6 @@ hr {
   border-radius: 10px;
   padding: 25px 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  
- 
 }
 
 .skills-bar .bar {
@@ -246,6 +244,7 @@ hr {
 .progress-line.sk-6 span::after {
   content: "80%";
 }
+
 /* projects-styling */
 .projects {
   background: rgba(31, 15, 15, 0.685);
@@ -305,6 +304,9 @@ hr {
   cursor: pointer;
   transform: scale(1.03);
   transition: all 0.5s ease;
+}
+.youtube-icon {
+  color: #d22938;
 }
 
 /* contacts-styling  */
