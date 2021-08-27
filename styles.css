@@ -70,7 +70,7 @@ header {
     flex-wrap: wrap;
     padding: 5px;
     padding-top: 0;
-    margin-left: 200px;
+    margin-left: 70px;
   }
   header {
     display: block;
@@ -485,15 +485,16 @@ hr {
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
+  /* home responsive */
   .home-content {
     line-height: 20px;
     font-weight: 400;
     margin: 20px;
     display: inline-block;
-    width: 170px;
+    width: 130px;
   }
   .name {
-    font-size: 30px;
+    font-size: 20px;
   }
   .resume {
     font-size: 20px;
@@ -511,6 +512,30 @@ hr {
   }
   .profile-pic {
     margin: 0px;
-    height: 300px;
+    margin-top: 80px;
+    height: 250px;
+    width:200px;
+    
   }
+  /* contact me responsive */
+  .contact .content h2 {
+    font-size: 20px;
+  }
+  .container-contact .contactInfo .box .text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .container-contact .contactInfo .box .text h3 {
+    font-weight: 300;
+  }
+  .container-contact .contactInfo .box {
+    padding: 10px 0; 
+  }
+  .container-contact .contactInfo .box .icon {
+    min-width: 60px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .responsive{font-size:10px;}
 }
