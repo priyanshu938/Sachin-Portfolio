@@ -303,12 +303,12 @@ hr {
 .card {
   background-color: #fff;
   width: 400px;
-  height: 400px;
+  height: 500px;
   margin: 50px;
   border-radius: 15px;
 }
 .card-image {
-  height: 200px;
+  height: 300px;
   margin-bottom: 15px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
@@ -344,7 +344,7 @@ hr {
 }
 .youtube-icon {
   color: #d22938;
-  font-size:50px;
+  font-size: 50px;
 }
 
 /* contacts-styling  */
@@ -538,11 +538,11 @@ hr {
     border-radius: 10px;
     padding: 25px 30px;
   }
-  
+
   /* projects responsive */
   .projects {
     padding: 0px;
-    width:400px;
+    width: 400px;
   }
   .projects-heading {
     text-align: center;
@@ -580,10 +580,10 @@ hr {
     padding: 10px 10px;
     margin: 20px 30px;
   }
-  
-.youtube-icon {
-  font-size:30px;
-}
+
+  .youtube-icon {
+    font-size: 30px;
+  }
   /* contact me responsive */
 
   .container-contact .contactInfo .box .text {
