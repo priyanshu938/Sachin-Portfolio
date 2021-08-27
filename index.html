@@ -24,7 +24,13 @@
       </header>
       <nav class="nav-navbar">
         <ul class="nav-area">
-          <li class="navbar-toggle"><i class="fas fa-bars" style="color:white;"></i></li>
+          <li class="navbar-toggle " >
+            <i class="fas fa-bars" style="color: white"></i>
+          </li>
+          <li class="navbar-cross invisible " >
+            <i class="fas fa-times" style="color: white;"></i>
+          </li>
+
           <li class="navbar-links">
             <a href="#about">About</a>
           </li>
@@ -253,20 +259,30 @@
     <br /><br />
   </body>
   <script>
-const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
-    const navbarLinks = document.getElementsByClassName('navbar-links');
-    var k=0;
-    toggleButton.addEventListener('click', function () {
-      if(k++%2==0 )
-        for (var i = 0; i < navbarLinks.length; i++) {
-            navbarLinks[i].style.display="block" 
-        }
-        else
-        for (var i = 0; i < navbarLinks.length; i++) {
-            navbarLinks[i].style.display="none" 
-        }
-    });
+    const toggleButton = document.getElementsByClassName("navbar-toggle")[0];
+    const toggleCross = document.getElementsByClassName("navbar-cross")[0];
 
-
+    const navbarLinks = document.getElementsByClassName("navbar-links");
+    
+    toggleButton.addEventListener("click", function () {
+      
+        toggleCross.style.display = "block";
+        toggleButton.style.display = "none";
+        toggleCross.classList.add("visible");
+        toggleCross.classList.remove("invisible");
+        for (var i = 0; i < navbarLinks.length; i++) {
+          navbarLinks[i].style.display = "block";
+        
+      }});
+      toggleCross.addEventListener("click",function() {
+        toggleButton.style.display = "block";
+        toggleCross.style.display = "none";
+        toggleCross.classList.remove("visible");
+        toggleCross.classList.add("invisible");
+        for (var i = 0; i < navbarLinks.length; i++) {
+          navbarLinks[i].style.display = "none";
+        }
+      }
+    );
   </script>
 </html>

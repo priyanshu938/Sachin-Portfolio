@@ -41,6 +41,7 @@ header {
   padding: 20px 30px;
   color: #d22938;
 }
+
 .logo {
   cursor: pointer;
 }
@@ -63,6 +64,13 @@ header {
 .nav-area .navbar-toggle {
   display: none;
 }
+.visible {
+  display: block;
+}
+ .invisible {
+  display: none !important;
+ 
+}
 /* media query for hamburger icon */
 
 @media (max-width: 600px) {
@@ -72,6 +80,7 @@ header {
     padding-top: 0;
     margin-left: 60px;
   }
+
   header {
     display: block;
   }
@@ -87,8 +96,8 @@ header {
     display: none;
     width: 100%;
   }
+   
 }
-
 /* home styling */
 .home {
   display: flex;
@@ -514,8 +523,7 @@ hr {
     margin: 0px;
     margin-top: 80px;
     height: 250px;
-    width:200px;
-    
+    width: 200px;
   }
   /* contact me responsive */
   .contact .content h2 {
@@ -530,12 +538,14 @@ hr {
     font-weight: 300;
   }
   .container-contact .contactInfo .box {
-    padding: 10px 0; 
+    padding: 10px 0;
   }
   .container-contact .contactInfo .box .icon {
     min-width: 60px;
     height: 50px;
     font-size: 20px;
   }
-  .responsive{font-size:12px;}
+  .responsive {
+    font-size: 12px;
+  }
 }
