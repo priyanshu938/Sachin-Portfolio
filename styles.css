@@ -344,6 +344,7 @@ hr {
 }
 .youtube-icon {
   color: #d22938;
+  font-size:50px;
 }
 
 /* contacts-styling  */
@@ -593,6 +594,10 @@ hr {
     padding: 10px 10px;
     margin: 20px 30px;
   }
+  
+.youtube-icon {
+  font-size:30px;
+}
   /* contact me responsive */
 
   .container-contact .contactInfo .box .text {
