@@ -67,9 +67,8 @@ header {
 .visible {
   display: block;
 }
- .invisible {
+.invisible {
   display: none !important;
- 
 }
 /* media query for hamburger icon */
 
@@ -96,7 +95,6 @@ header {
     display: none;
     width: 100%;
   }
-   
 }
 /* home styling */
 .home {
@@ -527,7 +525,7 @@ hr {
   }
   /* contact me responsive */
   .contact .content h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .container-contact .contactInfo .box .text {
     margin-left: 10px;
@@ -547,5 +545,49 @@ hr {
   }
   .responsive {
     font-size: 12px;
+  }
+  /* projects responsive */
+  .projects {
+    padding: 20px;
+  }
+  .projects-heading {
+    text-align: center;
+    text-decoration: overline underline;
+    text-decoration-color: white;
+    text-underline-offset: 10px;
+  }
+  .container-project {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+    margin-bottom: 0px;;
+    border-radius: 15px;
+  }
+  .card-image {
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .card p {
+    padding: 0px;
+   
+  }
+  .card a {
+   
+    padding: 10px 10px;
+   
+    margin: 20px 30px;
   }
 }
