@@ -38,7 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 70px;
+  padding: 20px 30px;
   color: #d22938;
 }
 .logo {
@@ -46,7 +46,7 @@ header {
 }
 .nav-area {
   list-style: none;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .nav-area li {
   display: inline-block;
@@ -69,6 +69,11 @@ header {
   .nav-area {
     flex-wrap: wrap;
     padding: 5px;
+    padding-top: 0;
+    margin-left: 200px;
+  }
+  header {
+    display: block;
   }
   .nav-area .navbar-toggle {
     display: block;
@@ -76,6 +81,7 @@ header {
   }
   .nav-area li {
     display: block;
+    margin-top: 30px;
   }
   .nav-area .navbar-links {
     display: none;
@@ -476,5 +482,35 @@ hr {
   .contactForm {
     margin-bottom: 40px;
     width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .home-content {
+    line-height: 20px;
+    font-weight: 400;
+    margin: 20px;
+    display: inline-block;
+    width: 170px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .resume {
+    font-size: 20px;
+    color: #ffff;
+    height: 40px;
+    width: 120px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .resume:hover {
+    color: #d22938;
+    background-color: white;
+    border: 3px solid #d22938;
+  }
+  .profile-pic {
+    margin: 0px;
+    height: 300px;
   }
 }
