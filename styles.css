@@ -29,6 +29,7 @@ a {
 .navbar {
   display: flex;
 }
+
 header {
   display: -webkit-flex;
   display: -moz-flexbox;
@@ -59,6 +60,29 @@ header {
 .nav-area li a:hover {
   color: #d22938;
 }
+.nav-area .navbar-toggle {
+  display: none;
+}
+/* media query for hamburger icon */
+
+@media (max-width: 600px) {
+  .nav-area {
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .nav-area .navbar-toggle {
+    display: block;
+    justify-content: center;
+  }
+  .nav-area li {
+    display: block;
+  }
+  .nav-area .navbar-links {
+    display: none;
+    width: 100%;
+  }
+}
+
 /* home styling */
 .home {
   display: flex;

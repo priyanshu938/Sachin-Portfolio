@@ -22,20 +22,21 @@
       <header>
         <h1 class="logo">Portfolio</h1>
       </header>
-      <nav>
+      <nav class="nav-navbar">
         <ul class="nav-area">
-          <li>
+          <li class="navbar-toggle"><i class="fas fa-bars" style="color:white;"></i></li>
+          <li class="navbar-links">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li class="navbar-links">
             <a href="#skills">Skills</a>
           </li>
 
-          <li>
+          <li class="navbar-links">
             <a href="#projects">Projects</a>
           </li>
 
-          <li>
+          <li class="navbar-links">
             <a href="#contact">Contact</a>
           </li>
         </ul>
@@ -145,7 +146,7 @@
           <h2>ANALYSIS</h2>
           <p></p>
           <a href="https://youtu.be/NIIy9EiGGKE">
-            <i class="fab fa-youtube fa-3x youtube-icon"  aria-hidden="true"></i
+            <i class="fab fa-youtube fa-3x youtube-icon" aria-hidden="true"></i
           ></a>
         </div>
       </section>
@@ -251,4 +252,21 @@
     <div class="footer">Copyright &copy 2021 Sachin Srivastava.</div>
     <br /><br />
   </body>
+  <script>
+const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+    var k=0;
+    toggleButton.addEventListener('click', function () {
+      if(k++%2==0 )
+        for (var i = 0; i < navbarLinks.length; i++) {
+            navbarLinks[i].style.display="block" 
+        }
+        else
+        for (var i = 0; i < navbarLinks.length; i++) {
+            navbarLinks[i].style.display="none" 
+        }
+    });
+
+
+  </script>
 </html>
