@@ -491,7 +491,7 @@ hr {
     font-weight: 400;
     margin: 20px;
     display: inline-block;
-    width: 130px;
+    width: 150px;
   }
   .name {
     font-size: 20px;
@@ -537,5 +537,5 @@ hr {
     height: 50px;
     font-size: 20px;
   }
-  .responsive{font-size:10px;}
+  .responsive{font-size:15px;}
 }
