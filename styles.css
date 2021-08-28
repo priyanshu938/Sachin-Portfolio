@@ -508,7 +508,7 @@ header {
     height: 40px;
     width: 120px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 20px;
   }
   .resume:hover {
