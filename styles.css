@@ -133,10 +133,7 @@ header {
   margin: 0px;
   height: 500px;
 }
-hr {
-  height: 3px;
-  background: #fff;
-}
+
 /* skills styling */
 .skills-div {
   display: flex;
