@@ -221,13 +221,13 @@ header {
   width: 65%;
 }
 .progress-line.sk-4 span {
-  width: 75%;
+  width: 50%;
 }
 .progress-line.sk-5 span {
   width: 50%;
 }
 .progress-line.sk-6 span {
-  width: 50%;
+  width: 80%;
 }
 .bar .progress-line span::before {
   position: absolute;
@@ -271,10 +271,10 @@ header {
   content: "65%";
 }
 .progress-line.sk-4 span::after {
-  content: "75%";
+  content: "50%";
 }
 .progress-line.sk-5 span::after {
-  content: "85%";
+  content: "50%";
 }
 .progress-line.sk-6 span::after {
   content: "80%";
