@@ -310,10 +310,10 @@ header {
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
-.card-1 {
+.card-2 {
   background-image: url("/images/ProductDesign.jpg");
 }
-.card-2 {
+.card-1 {
   background-image: url("/images/3DParts.jpg");
 }
 .card-3 {
@@ -580,7 +580,7 @@ header {
     padding: 10px 10px;
     margin: 20px 30px;
   }
-  .card-1 {
+  .card-2 {
     width: 270px;
   }
   .card-3 {
