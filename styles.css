@@ -171,7 +171,7 @@ header {
   margin-bottom: 5px;
 }
 .skills-bar .bar .info span {
-  color:#000;
+  color: #000;
   font-size: 17px;
   font-weight: 500;
   opacity: 0;
@@ -318,7 +318,7 @@ header {
 }
 .card-3 {
   background-image: url("/images/Analysis.svg");
-  width:330px;
+  width: 330px;
 }
 .card h2 {
   padding: 10px;
@@ -537,7 +537,7 @@ header {
     padding: 25px 30px;
   }
   .skills-bar .bar .info span {
-  font-size:14px;
+    font-size: 14px;
   }
   /* projects responsive */
   .projects {
@@ -581,10 +581,10 @@ header {
     margin: 20px 30px;
   }
   .card-1 {
-    width:270px;
+    width: 270px;
   }
   .card-3 {
-    width:223px;
+    width: 223px;
   }
 
   .youtube-icon {
