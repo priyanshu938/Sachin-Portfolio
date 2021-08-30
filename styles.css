@@ -284,7 +284,6 @@ header {
 .projects {
   background: rgba(31, 15, 15, 0.685);
   color: #d22938;
-  padding: 30px;
 }
 .projects-heading {
   text-align: center;
@@ -312,13 +311,14 @@ header {
   border-radius: 15px 15px 0 0;
 }
 .card-1 {
-  background-image: url("/images/3DParts.jpg");
-}
-.card-2 {
   background-image: url("/images/ProductDesign.jpg");
 }
+.card-2 {
+  background-image: url("/images/3DParts.jpg");
+}
 .card-3 {
-  background-image: url("/images/Analysis.gif");
+  background-image: url("/images/Analysis.svg");
+  width:330px;
 }
 .card h2 {
   padding: 10px;
@@ -579,6 +579,12 @@ header {
   .card a {
     padding: 10px 10px;
     margin: 20px 30px;
+  }
+  .card-1 {
+    width:250px;
+  }
+  .card-3 {
+    width:210px;
   }
 
   .youtube-icon {
