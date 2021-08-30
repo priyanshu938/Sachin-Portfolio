@@ -77,7 +77,7 @@ header {
     flex-wrap: wrap;
     padding: 5px;
     padding-top: 0;
-    margin-left: 60px;
+    margin-left: 55px;
   }
 
   header {
@@ -221,10 +221,10 @@ header {
   width: 65%;
 }
 .progress-line.sk-4 span {
-  width: 75%;
+  width: 50%;
 }
 .progress-line.sk-5 span {
-  width: 85%;
+  width: 50%;
 }
 .progress-line.sk-6 span {
   width: 80%;
@@ -271,10 +271,10 @@ header {
   content: "65%";
 }
 .progress-line.sk-4 span::after {
-  content: "75%";
+  content: "50%";
 }
 .progress-line.sk-5 span::after {
-  content: "85%";
+  content: "50%";
 }
 .progress-line.sk-6 span::after {
   content: "80%";
@@ -490,7 +490,7 @@ header {
     width: 100%;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
   /* home responsive */
   .home-content {
     line-height: 20px;
